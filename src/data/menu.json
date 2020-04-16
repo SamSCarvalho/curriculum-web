@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "title": "Pessoal",
+    "icon": "user"
+  },
+  {
+    "id": 1,
+    "title": "Formação",
+    "icon": "school"
+  },
+  {
+    "id": 2,
+    "title": "Experiência",
+    "icon": "briefcase"
+  },
+  {
+    "id": 3,
+    "title": "Conhecimentos",
+    "icon": "coding"
+  },
+  {
+    "id": 4,
+    "title": "Contato",
+    "icon": "phone"
+  },
+  {
+    "id": 5,
+    "title": "Portfólio",
+    "icon": "project"
+  }
+]
