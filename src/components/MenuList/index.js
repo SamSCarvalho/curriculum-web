@@ -3,7 +3,7 @@ import React from 'react';
 import Menu from './components/Menu';
 import { FlexContainer } from './styles';
 
-const MenuList = ({ data, clicked, selected }) => (
+const MenuList = ({ data, clicked, selected, animation }) => (
   <FlexContainer selected={(selected !== null)}>
     {data.map( el => (selected === null || selected === el.id) ?
       <Menu
@@ -11,7 +11,9 @@ const MenuList = ({ data, clicked, selected }) => (
         icon={el.icon}
         key={el.id}
         clicked={() => clicked(el.id)}
-        selected={(selected === el.id)}/>
+        selected={(selected === el.id)}
+        animation={animation}
+      />
       : null
     )}
   </FlexContainer>

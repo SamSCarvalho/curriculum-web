@@ -1,21 +1,23 @@
 import styled from 'styled-components';
 
-import { ZoomIn } from '../../animations';
+import { ZoomIn, ZoomOut } from '../../animations';
 import Colors from '../../constants/colors';
 
 export const Container = styled.div`
   width: 80%;
   flex: 1;
   flex-grow: 5;
+  margin-bottom: 40px;
 `;
 
 export const Card = styled.div`
   background-color: ${Colors.secondBackground};
+  box-shadow: 2px 2px 0px 0px ${Colors.shadow};
   border-radius: 20px;
   padding: 40px;
   font-size: 14px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  animation: ${ZoomIn} 0.7s 0.2s both;
+  animation: ${props => props.animation ? ZoomOut : ZoomIn} 0.7s 0.2s both;
 `;

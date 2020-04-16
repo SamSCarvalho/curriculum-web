@@ -4,5 +4,6 @@ export default {
   second: '#9e9e9e',
   text: '#fff',
   darkText: '#616161',
-  secondBackground: '#373d48'
+  secondBackground: '#373d48',
+  shadow: '#7d56c170',
 }

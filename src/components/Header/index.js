@@ -7,7 +7,8 @@ import {
   Title,
   SubTitle,
   Description,
-  HeaderDiv
+  HeaderDiv,
+  AnimateSubTitle
 } from './styles';
 
 const Header = () => (
@@ -15,6 +16,7 @@ const Header = () => (
     <Container>
       <Title>{Strings.titlePage}</Title>
       <SubTitle>{Strings.subTitlePage}</SubTitle>
+      <AnimateSubTitle>{Strings.subTitlePageAnimate}</AnimateSubTitle>
     </Container>
     <Description>{Strings.description}</Description>
   </HeaderDiv>
