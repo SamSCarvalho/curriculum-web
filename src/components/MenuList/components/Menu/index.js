@@ -7,8 +7,8 @@ import {
   Title
 } from './styles';
 
-const Menu = ({ title, icon, clicked }) => (
-  <ContainerButton onClick={clicked}>
+const Menu = ({ title, icon, clicked, selected }) => (
+  <ContainerButton onClick={clicked} selected={selected}>
     <MenuButton>
       <Icon src={require(`../../../../res/icons/${icon}.png`)} alt={title} />
     </MenuButton>

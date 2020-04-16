@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 
-import { FadeIn } from '../../animations';
+import { ZoomIn } from '../../animations';
 import Colors from '../../constants/colors';
 
 export const Container = styled.div`
   width: 80%;
   flex: 1;
+  flex-grow: 5;
 `;
 
 export const Card = styled.div`
@@ -16,5 +17,5 @@ export const Card = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  animation: ${FadeIn} 1s 0.2s both;
+  animation: ${ZoomIn} 0.7s 0.2s both;
 `;

@@ -16,3 +16,13 @@ export const Pulse = keyframes`
     transform: scale3d(1, 1, 1);
   }
 `;
+
+export const ZoomIn = keyframes`
+from {
+   opacity: 0;
+   transform: scale3d(.3, .3, .3);
+ }
+ 50% {
+   opacity: 1;
+ }
+`;

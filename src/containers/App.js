@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 import { Container } from './styles';
 import Header from '../components/Header';
@@ -14,11 +14,14 @@ const App = () => {
 
   const clearSelected = () => setSelected(null);
 
+  useEffect(() => window.scrollTo(0, 0), [selected]);
+
   return (
     <Container>
       <Header />
+      <MenuList clicked={setSelected} data={menuJson} selected={selected} /> 
       {(selected === null) ? 
-        <MenuList clicked={setSelected} data={menuJson} /> :
+        null :
         <InfoView cancel={clearSelected} />
       }
       <Footer />

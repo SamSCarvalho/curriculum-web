@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import { FadeIn, Pulse } from '../../../../animations';
 import Colors from '../../../../constants/colors';
@@ -22,12 +22,19 @@ export const Icon = styled.img`
 
 export const ContainerButton = styled.div`
   margin: 40px;
-  cursor: pointer;
+  cursor: ${props => !props.selected ? 'pointer' : ''};
   animation: ${FadeIn} 0.8s 0.2s both;
   & :hover {
-    opacity: 0.5;
-    animation: ${Pulse} 0.8s 0s both;
+    ${props => !props.selected && css`
+      opacity: 0.5;
+      animation: ${Pulse} 0.8s 0s both;
+    `}
   }
+  ${props => props.selected && css`
+    margin: 0px;
+  `}
+  animation-delay: 0.2s;
+  animation-duration: 2.8s;
 `;
 
 export const Title = styled.span`
