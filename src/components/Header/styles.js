@@ -15,6 +15,7 @@ export const Title = styled.h1`
   margin-top: 4%;
   font-family: monospace;
   font-size: 2em;
+  color: ${Colors.text};
 `
 
 export const SubTitle = styled.span`

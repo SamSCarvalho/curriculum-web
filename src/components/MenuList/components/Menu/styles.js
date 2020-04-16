@@ -1,8 +1,13 @@
 import styled from 'styled-components';
 
+import { FadeIn, Pulse } from '../../../../animations';
 import Colors from '../../../../constants/colors';
 
+
 export const MenuButton = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: ${Colors.primary};
   padding: 20px;
   border-radius: 100%;
@@ -18,8 +23,10 @@ export const Icon = styled.img`
 export const ContainerButton = styled.div`
   margin: 40px;
   cursor: pointer;
+  animation: ${FadeIn} 0.8s 0.2s both;
   & :hover {
     opacity: 0.5;
+    animation: ${Pulse} 0.8s 0s both;
   }
 `;
 
