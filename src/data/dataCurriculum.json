@@ -1,0 +1,61 @@
+{
+  "Profile": {
+    "name": "Samuel Santiago de Carvalho",
+    "location": "Salvador, Bahia, Brasil",
+    "birthday": "1996-07-17",
+    "ageComplement": "anos"
+  },
+  "Formation": {
+    "title": "Formation",
+    "formations": [
+      {
+        "period": "2015 até 2020",
+        "location": "Salvador/Bahia - Brasil",
+        "institution": "Universidade do Estado da Bahia - UNEB",
+        "describe": "Bacharelado em Sistemas de Informação"
+      },
+      {
+        "period": "Concluído",
+        "location": "Araci/Bahia - Brasil",
+        "institution": "Colégio Olimpo’s",
+        "describe": "Ensino Médio Completo"
+      }
+    ]
+  },
+  "Experience": {
+    "title": "Experience"
+  },
+  "Knowledge": {
+    "title": "Knowledge"
+  },
+  "Contact": {
+    "title": "Contact",
+    "contacts": [
+      { 
+        "type": "phone",
+        "describe": "+55 (71) 98811 8583",
+        "hasLink": false
+      },
+      {
+        "type": "mail",
+        "describe": "sam.scarvalho17@gmail.com",
+        "hasLink": false
+      },
+      {
+        "type": "linkedin",
+        "describe": "Linkedin",
+        "hasLink": true,
+        "link": "https://www.linkedin.com/in/samuel-carvalho-12509113a/"
+      },
+      {
+        "type": "github",
+        "describe": "GitHub",
+        "hasLink": true,
+        "link": "https://github.com/SamSCarvalho"
+      }
+    ]
+  },
+  "Portfolio": {
+    "title": "Portfolio"
+  }
+}

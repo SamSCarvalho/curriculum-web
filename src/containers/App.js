@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import MenuList from '../components/MenuList';
 import InfoView from '../components/InfoView';
 import Footer from '../components/Footer';
+import InfoDetails from '../components/InfoDetails';
 
 
 import menuJson from '../data/menu.json';
@@ -27,6 +28,10 @@ const App = () => {
 
   useEffect(() => window.scrollTo(0, 0), [selected]);
 
+  const filterInfoDetails = () => InfoDetails.find(
+    el => el.id === selected
+  ).component;
+
   return (
     <Container>
       <Header />
@@ -41,6 +46,7 @@ const App = () => {
         <InfoView
           cancel={clearSelected}
           animation={animation}
+          ComponentDetails={filterInfoDetails()}
         />
       }
       <Footer />

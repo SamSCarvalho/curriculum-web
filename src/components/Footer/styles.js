@@ -10,7 +10,6 @@ export const FooterText = styled.span`
 `;
 
 export const Container = styled.div`
-  /* background-color: #049e8c; */
   height: 50pt;
   text-align: right;
   bottom: 0;

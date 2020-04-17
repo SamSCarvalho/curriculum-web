@@ -6,12 +6,12 @@
   },
   {
     "id": 1,
-    "title": "Formação",
+    "title": "Formações",
     "icon": "school"
   },
   {
     "id": 2,
-    "title": "Experiência",
+    "title": "Experiências",
     "icon": "briefcase"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "id": 4,
-    "title": "Contato",
+    "title": "Contatos",
     "icon": "phone"
   },
   {
