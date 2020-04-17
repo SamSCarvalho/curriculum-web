@@ -13,6 +13,12 @@ export const Text = styled.p`
   font-size: ${Sizes.normal};
 `;
 
+export const TextInline = styled.span`
+  font-size: ${Sizes.normal};
+  font-weight: 100;
+  color: ${Colors.second};
+`;
+
 export const Title = styled.h4`
   font-size: ${Sizes.big};
   margin: 10px 0px 15px 0px;

@@ -17,12 +17,11 @@ export const Card = styled.div`
   box-shadow: 2px 2px 0px 0px ${Colors.shadow};
   border-radius: 20px;
   padding: 40px;
-  /* font-size: 14px; */
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   animation: ${props => props.animation ? ZoomOut : ZoomIn} 0.7s 0.2s both;
   width: max-content;
   height: max-content;
-  min-width: 40%;
+  min-width: 50%;
 `;

@@ -26,7 +26,50 @@
     "title": "Experience"
   },
   "Knowledge": {
-    "title": "Knowledge"
+    "title": "Knowledge",
+    "main": {
+      "title": "Principais",
+      "array": [
+        {
+          "describe": "HTML",
+          "porcent": "80%"
+        },
+        {
+          "describe": "CSS",
+          "porcent": "75%"
+        },
+        {
+          "describe": "React.js",
+          "porcent": "85%"
+        },
+        {
+          "describe": "Javascript",
+          "porcent": "90%"
+        },
+        {
+          "describe": "PHP",
+          "porcent": "75%"
+        },
+        {
+          "describe": "Laravel",
+          "porcent": "60%"
+        },
+        {
+          "describe": "MySQL",
+          "porcent": "80%"
+        },
+        {
+          "describe": "Git",
+          "porcent": "85%"
+        }
+      ]
+    },
+    "others": {
+      "title": "Outros",
+      "array": [
+        "CodeIgniter", "Arduino", "C", "C++", "Python", "Linux", "Design Patterns", "Metodos Ágeis"
+      ]
+    }
   },
   "Contact": {
     "title": "Contact",
