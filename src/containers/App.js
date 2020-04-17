@@ -21,13 +21,17 @@ const App = () => {
     }, 500);
   };
 
+  const selectedCategory = (id) => {
+    setSelected(id);
+  }
+
   useEffect(() => window.scrollTo(0, 0), [selected]);
 
   return (
     <Container>
       <Header />
       <MenuList
-        clicked={setSelected}
+        clicked={selectedCategory}
         data={menuJson}
         selected={selected}
         animation={animation}

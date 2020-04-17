@@ -71,3 +71,13 @@ export const Blink = keyframes`
     opacity: 0;
   }
 `;
+
+
+export const MoveCenter = keyframes`
+  from {
+    left: 480px;
+  } 
+  to{
+    left:20px;
+  } 
+`;

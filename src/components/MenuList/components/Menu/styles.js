@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
 
-import { FadeIn, Pulse, ZoomOut, FadeOut } from '../../../../animations';
+import { FadeIn, Pulse, ZoomOut, FadeOut, ZoomIn } from '../../../../animations';
 import Colors from '../../../../constants/colors';
 
 
@@ -23,7 +23,15 @@ export const Icon = styled.img`
 export const ContainerButton = styled.div`
   margin: ${props => !props.selected ? '40px' : '0px'};
   cursor: ${props => !props.selected ? 'pointer' : ''};
-  animation: ${props => props.animation ? ZoomOut : FadeIn} 0.8s 0.2s both;
+  ${props => props.animation && css`
+    animation: ${ZoomOut} 0.8s 0.2s both;
+  `};
+  ${props => props.selected && !props.animation && css`
+    animation: ${ZoomIn} 0.2s 0.2s both;
+  `};
+  ${props => !props.selected && !props.animation && css`
+    animation: ${FadeIn} 0.2s 0.2s both;
+  `};
   & :hover {
     ${props => !props.selected && css`
       opacity: 0.5;

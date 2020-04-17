@@ -26,6 +26,7 @@ export const SubTitle = styled.span`
 `;
 
 export const AnimateSubTitle = styled(SubTitle)`
+  font-weight: bold;
   animation: ${Blink} 1s linear infinite;
 `;
 
