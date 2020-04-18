@@ -2,31 +2,37 @@
   {
     "id": 0,
     "title": "Pessoal",
-    "icon": "user"
+    "icon": "user",
+    "command": "profile"
   },
   {
     "id": 1,
     "title": "Formações",
-    "icon": "school"
+    "icon": "school",
+    "command": "formations"
   },
   {
     "id": 2,
     "title": "Experiências",
-    "icon": "briefcase"
+    "icon": "briefcase",
+    "command": "experiences"
   },
   {
     "id": 3,
     "title": "Conhecimentos",
-    "icon": "coding"
+    "icon": "coding",
+    "command": "knowledges"
   },
   {
     "id": 4,
     "title": "Contatos",
-    "icon": "phone"
+    "icon": "phone",
+    "command": "contacts"
   },
   {
     "id": 5,
     "title": "Portfólio",
-    "icon": "project"
+    "icon": "project",
+    "command": "portfolio"
   }
 ]
