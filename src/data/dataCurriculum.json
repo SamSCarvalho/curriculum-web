@@ -1,0 +1,131 @@
+{
+  "Profile": {
+    "name": "Samuel Santiago de Carvalho",
+    "location": "Salvador, Bahia, Brasil",
+    "birthday": "1996-07-17",
+    "ageComplement": "anos"
+  },
+  "Formation": {
+    "title": "Formation",
+    "formations": [
+      {
+        "period": "2015 até 2020",
+        "location": "Salvador/Bahia - Brasil",
+        "institution": "Universidade do Estado da Bahia - UNEB",
+        "describe": "Bacharelado em Sistemas de Informação"
+      }
+    ]
+  },
+  "Experience": {
+    "title": "Experience",
+    "experiences": [
+      {
+        "company": "Horizon - Comunicação e Interatividade",
+        "period": "2018 até 2020",
+        "location": "Salvador/Bahia - Brasil",
+        "post": "Desenvolvedor Full Stack",
+        "projects": {
+          "title": "Projetos", 
+          "array": [
+            "Cadastro Único Cidadão (WEB): Sistema para Madre de Deus com objetivo de coletar e gerenciar os dados dos cidadãos;",
+            "Assist (WEB): Plataforma com objetivo de informatizar todo o processo da Assistência Social do município de Madre de Deus;",
+            "Edukit (WEB): Plataforma para gerenciar as escolas públicas do município de Madre de Deus;",
+            "Sistema Integrado da Juventude (WEB): Sistema para gerenciar os benefícios universitários no município de Madre de Deus;",
+            "Sou Cidadão (Mobile) - Aplicativo para o cidadão poder visualizar todos seus benefícios e notícias da cidade de Madre de Deus;",
+            "ACS+ (Mobile) - Aplicativo para facilitar o trabalho dos assistentes sociais com fichas digitais para serem preenchidas e enviadas;"
+          ]
+        }
+      },
+      {
+        "company": "Centro de Arquitetura de Computadores e Sistemas Operacionais",
+        "period": "2016 até 2018",
+        "location": "Salvador/Bahia - Brasil",
+        "post": "Auxiliar de Pesquisa",
+        "projects": {
+          "title": "Projetos",
+          "array": [
+            "Liga Very Small Soccer (VSSS);",
+            "Desenvolvimento da liga @Home, com robô de serviço;"
+          ]
+        }
+      }
+    ]
+  },
+  "Knowledge": {
+    "title": "Knowledge",
+    "main": {
+      "title": "Principais",
+      "array": [
+        {
+          "describe": "HTML",
+          "porcent": "80%"
+        },
+        {
+          "describe": "CSS",
+          "porcent": "75%"
+        },
+        {
+          "describe": "React.js",
+          "porcent": "85%"
+        },
+        {
+          "describe": "Javascript",
+          "porcent": "90%"
+        },
+        {
+          "describe": "PHP",
+          "porcent": "75%"
+        },
+        {
+          "describe": "Laravel",
+          "porcent": "60%"
+        },
+        {
+          "describe": "MySQL",
+          "porcent": "80%"
+        },
+        {
+          "describe": "Git",
+          "porcent": "85%"
+        }
+      ]
+    },
+    "others": {
+      "title": "Outros",
+      "array": [
+        "CodeIgniter", "Arduino", "C", "C++", "Python", "Linux", "Design Patterns", "Metodos Ágeis"
+      ]
+    }
+  },
+  "Contact": {
+    "title": "Contact",
+    "contacts": [
+      { 
+        "type": "phone",
+        "describe": "+55 (71) 98811 8583",
+        "hasLink": false
+      },
+      {
+        "type": "mail",
+        "describe": "sam.scarvalho17@gmail.com",
+        "hasLink": false
+      },
+      {
+        "type": "linkedin",
+        "describe": "Linkedin",
+        "hasLink": true,
+        "link": "https://www.linkedin.com/in/samuel-carvalho-12509113a/"
+      },
+      {
+        "type": "github",
+        "describe": "GitHub",
+        "hasLink": true,
+        "link": "https://github.com/SamSCarvalho"
+      }
+    ]
+  },
+  "Portfolio": {
+    "title": "Portfolio",
+    "portfolios": []
+  }
+}

@@ -12,4 +12,5 @@ export const Container = styled.div`
   font-size: calc(10px + 2vmin);
   color: white;
   margin: 0px;
+  overflow-x: hidden;
 `;
