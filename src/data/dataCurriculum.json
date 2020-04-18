@@ -13,17 +13,43 @@
         "location": "Salvador/Bahia - Brasil",
         "institution": "Universidade do Estado da Bahia - UNEB",
         "describe": "Bacharelado em Sistemas de Informação"
-      },
-      {
-        "period": "Concluído",
-        "location": "Araci/Bahia - Brasil",
-        "institution": "Colégio Olimpo’s",
-        "describe": "Ensino Médio Completo"
       }
     ]
   },
   "Experience": {
-    "title": "Experience"
+    "title": "Experience",
+    "experiences": [
+      {
+        "company": "Horizon - Comunicação e Interatividade",
+        "period": "2018 até 2020",
+        "location": "Salvador/Bahia - Brasil",
+        "post": "Desenvolvedor Full Stack",
+        "projects": {
+          "title": "Projetos", 
+          "array": [
+            "Cadastro Único Cidadão (WEB): Sistema para Madre de Deus com objetivo de coletar e gerenciar os dados dos cidadãos;",
+            "Assist (WEB): Plataforma com objetivo de informatizar todo o processo da Assistência Social do município de Madre de Deus;",
+            "Edukit (WEB): Plataforma para gerenciar as escolas públicas do município de Madre de Deus;",
+            "Sistema Integrado da Juventude (WEB): Sistema para gerenciar os benefícios universitários no município de Madre de Deus;",
+            "Sou Cidadão (Mobile) - Aplicativo para o cidadão poder visualizar todos seus benefícios e notícias da cidade de Madre de Deus;",
+            "ACS+ (Mobile) - Aplicativo para facilitar o trabalho dos assistentes sociais com fichas digitais para serem preenchidas e enviadas;"
+          ]
+        }
+      },
+      {
+        "company": "Centro de Arquitetura de Computadores e Sistemas Operacionais",
+        "period": "2016 até 2018",
+        "location": "Salvador/Bahia - Brasil",
+        "post": "Auxiliar de Pesquisa",
+        "projects": {
+          "title": "Projetos",
+          "array": [
+            "Liga Very Small Soccer (VSSS);",
+            "Desenvolvimento da liga @Home, com robô de serviço;"
+          ]
+        }
+      }
+    ]
   },
   "Knowledge": {
     "title": "Knowledge",
@@ -99,6 +125,7 @@
     ]
   },
   "Portfolio": {
-    "title": "Portfolio"
+    "title": "Portfolio",
+    "portfolios": []
   }
 }

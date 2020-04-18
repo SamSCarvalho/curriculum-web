@@ -1,11 +1,9 @@
 import React from 'react';
 
-import { Portfolio as PortfolioJson } from '../../../../data/dataCurriculum.json';
+import CommingSoon from '../CommingSoon';
 
 const Portfolio = () => (
-  <div>
-    <p>{PortfolioJson.title}</p>
-  </div>
+  <CommingSoon />
 );
 
 export default Portfolio;

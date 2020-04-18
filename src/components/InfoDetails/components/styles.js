@@ -8,6 +8,18 @@ export const Container = styled.div`
   text-align: left;
 `;
 
+export const CotainerCenter = styled.div`
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+`;
+
+export const TextHidden = styled.p`
+  font-size: 1em;
+  color: ${Colors.background};
+  font-weight: bold;
+`;
+
 export const Text = styled.p`
   margin: 6px 0px 6px 0px;
   font-size: ${Sizes.normal};
@@ -67,4 +79,8 @@ export const TextWithIcon = styled.div`
     font-size: ${Sizes.normal};
     color: ${Colors.text};
   }
+`;
+
+export const MarginLeftDiv = styled.div`
+  margin-left: ${props => props.margin}em;
 `;
