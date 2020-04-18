@@ -13,6 +13,7 @@ export const MenuButton = styled.div`
   border-radius: 100%;
   width: 60px;
   height: 60px;
+  margin-bottom: 20px;
 `;
 
 export const Icon = styled.img`
@@ -21,6 +22,9 @@ export const Icon = styled.img`
 `;
 
 export const ContainerButton = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: ${props => !props.selected ? '40px' : '0px'};
   cursor: ${props => !props.selected ? 'pointer' : ''};
   ${props => props.animation && css`
