@@ -14,7 +14,7 @@ const Formation = () => (
     {data.formations.map((el, index) => (
       <DivBorderLeft key={index}>
         <TextBold>{el.institution}</TextBold>
-        <TextColor color={Colors.third} weight={200}>{el.period} - {el.location}</TextColor>
+        <TextColor color={Colors.third} weight={200}>{el.period} {el.location && `- ${el.location}`}</TextColor>
         <TextColor color={Colors.second} weight={100}>{el.describe}</TextColor>
       </DivBorderLeft>
     ))}
